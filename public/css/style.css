@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+
+header nav {
+  background-color: #363B47;
+  display: flex;
+}
+header nav div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+header nav div h1 {
+  color: aliceblue;
+  font-size: 30px;
+  cursor: pointer;
+}
+header nav ul {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 150px;
+}
+header nav ul li {
+  margin: 0px 25px;
+}
+header nav ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #d8d8d8;
+}
+header .banner img {
+  width: 100%;
+  height: 650px;
+}
+header .intro {
+  padding: 4%;
+  background-color: #E8E6E0;
+  color: #7B8591;
+  font-size: 30px;
+  text-align: center;
+}
+header .intro p {
+  margin: 0;
+  padding-bottom: 25px;
+}
+header .intro p span:first-of-type {
+  background-color: #26A2CC;
+  color: aliceblue;
+}
+header .intro p span:last-of-type {
+  color: #414141;
+}
+header .intro p span:nth-of-type(2) {
+  color: #26A2CC;
+}
+
+section {
+  display: flex;
+  background-color: #EFEFF1;
+  height: 100vh;
+}
+section .container {
+  margin: 0 15%;
+}
+section .container .card {
+  display: flex;
+  margin: 50px 0px;
+}
+section .container .card div {
+  background-color: #E2E0E0;
+  text-align: center;
+  margin: 15px;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+section .container .card div h4 {
+  color: #414141;
+}
+section .container .card div span {
+  color: #26A2CC;
+}
+section .container .textAndCards {
+  display: flex;
+}
+section .container .textAndCards .text {
+  padding-right: 100px;
+}
+section .container .textAndCards .text h2 {
+  color: #414141;
+}
+section .container .textAndCards .text p:first-of-type {
+  color: #B1AEB0;
+}
+section .container .textAndCards .text p:last-of-type {
+  color: #3e3e3e;
+  margin-bottom: 10%;
+}
+section .container .textAndCards .text a {
+  color: #EFEFF1;
+  text-decoration: none;
+  background-color: #26A2CC;
+  border-radius: 6px;
+  padding: 15px;
+}
+section .container .textAndCards .threeCards {
+  display: flex;
+}
+section .container .textAndCards .threeCards div {
+  padding: 0px 3px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+section .container .textAndCards .threeCards div img {
+  width: 230px;
+  height: 150px;
+}
+section .container .textAndCards .threeCards div .content {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #363B47;
+}
+section .container .textAndCards .threeCards div .content h3 {
+  margin-top: 0;
+  color: #EFEFF1;
+}
+section .container .textAndCards .threeCards div .content p {
+  color: #B1AEB0;
+}
+
+/*# sourceMappingURL=style.css.map */
